@@ -1,7 +1,7 @@
 [project]
 name = "torm-storage"
-version = "0.1.1"
-description = "TyniDB storage with orjson and msgpack"
+version = "0.1.2"
+description = "TinyDB storage with orjson and msgpack"
 authors = [{ name = "IDNatte", email = "idnatte@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.9,<3.13"
