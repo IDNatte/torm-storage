@@ -1,11 +1,16 @@
 [project]
 name = "torm-storage"
-version = "0.1.0"
+version = "0.1.1"
 description = "TyniDB storage with orjson and msgpack"
 authors = [{ name = "IDNatte", email = "idnatte@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.9,<3.13"
-dependencies = ["tinydb (>=4.8.2,<5.0.0)", "orjson (>=3.10.15,<4.0.0)", "msgpack (>=1.1.0,<2.0.0)", "filelock (>=3.18.0,<4.0.0)"]
+dependencies = [
+  "tinydb (>=4.8.2,<5.0.0)",
+  "orjson (>=3.10.15,<4.0.0)",
+  "msgpack (>=1.1.0,<2.0.0)",
+  "filelock (>=3.18.0,<4.0.0)",
+]
 
 [project.scripts]
 dev = "torm_storage.package:test"
