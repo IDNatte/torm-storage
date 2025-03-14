@@ -1,0 +1,6 @@
+[run]
+source =
+  torm_storage
+
+omit =
+  test/*
