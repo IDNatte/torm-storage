@@ -13,7 +13,7 @@ class TormStorage(Storage):
         self._lock = filelock.FileLock(self._lockfile, thread_local=False)
 
         if not self._file.is_file():
-            self._file.parent.mkdir(exist_ok=True)
+            self._file.parent.mkdir(exist_ok=True, parents=True)
             self._file.touch(exist_ok=True)
             self._lockfile.touch(exist_ok=True)
 
