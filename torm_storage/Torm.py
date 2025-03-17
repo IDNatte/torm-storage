@@ -1,5 +1,3 @@
-
-# import filelock
 import logging
 import pathlib
 from threading import RLock
